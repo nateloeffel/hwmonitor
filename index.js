@@ -26,7 +26,7 @@ const getDatabase = async () => {
 const notifysms = async (title, days_left, result) => {
   client.messages.create({
      body: `Assignment: ${title} is due soon.`,
-     from: '+18336220734',
+     from: '+6174874243',
      to: '+14042775585'
    })
   .then(message => console.log(message.sid));
